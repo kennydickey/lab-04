@@ -1,0 +1,59 @@
+#header{
+  width: 480;
+  height: 75;
+}
+#aside{
+  width: 480;
+  height: 150;
+}
+.main1{
+  width: 480;
+  height: 125;
+}
+.main2{
+  width: 239;
+  height: 250;
+  float: left;
+}
+#footer{
+  width: 480;
+  height: 80;
+  clear: left;
+}
+
+@media(min-width: 960px){ 
+  body{
+    min-width: 960px;
+    max-width: 1020px;
+  };
+
+	#header{
+    width: 960px;
+    height: 100px;
+  }
+  #aside{
+    width: 200;
+    height: 600;
+    float: left;
+  }
+  .main1{
+    width: 380;
+    height: 200;
+    float: left;
+  }
+  .main2{
+    width: 189;
+    height: 250;
+    float: left;
+  }
+  #footer{
+    width: 761;
+    height:146;
+    float: left;
+    clear: none;
+    margin-left: 2px;
+  }
+ }
+
+
+
