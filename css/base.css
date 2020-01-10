@@ -1,0 +1,11 @@
+div {
+  background-color: gray;
+  margin: 1px;
+  text-align: center;
+}
+body{
+  min-width: 500px;
+  max-width: 501px;
+}
+
+
